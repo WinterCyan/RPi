@@ -27,7 +27,7 @@ if __name__=='__main__':
 	try:
 		main()
 	except KeyboardInterrupt:
-		print('Exit')
+		pass
 	finally:
 		for pin in INs:
 			IO.output(pin,False)
